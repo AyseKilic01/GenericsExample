@@ -53,6 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributes\RequiredPropertyAttribute.cs" />
+    <Compile Include="Attributes\ToTableAttribute.cs" />
     <Compile Include="DAL\CustomerDal.cs" />
     <Compile Include="DAL\ICustomerDal.cs" />
     <Compile Include="DAL\IEntity.cs" />

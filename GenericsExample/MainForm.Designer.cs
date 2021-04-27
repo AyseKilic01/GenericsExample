@@ -32,7 +32,9 @@
             this.btnList = new DevExpress.XtraEditors.SimpleButton();
             this.lstSehir = new DevExpress.XtraEditors.ListBoxControl();
             this.btnExit = new DevExpress.XtraEditors.SimpleButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.lstSehir)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnList
@@ -55,9 +57,9 @@
             // 
             // lstSehir
             // 
-            this.lstSehir.Location = new System.Drawing.Point(22, 49);
+            this.lstSehir.Location = new System.Drawing.Point(28, 79);
             this.lstSehir.Name = "lstSehir";
-            this.lstSehir.Size = new System.Drawing.Size(409, 305);
+            this.lstSehir.Size = new System.Drawing.Size(396, 275);
             this.lstSehir.TabIndex = 1;
             // 
             // btnExit
@@ -69,28 +71,42 @@
             this.btnExit.Appearance.Options.UseFont = true;
             this.btnExit.Appearance.Options.UseForeColor = true;
             this.btnExit.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.btnExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.btnExit.Location = new System.Drawing.Point(389, 7);
+            this.btnExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.ImageOptions.Image")));
+            this.btnExit.Location = new System.Drawing.Point(414, -3);
             this.btnExit.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
             this.btnExit.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnExit.Name = "btnExit";
             this.btnExit.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
-            this.btnExit.Size = new System.Drawing.Size(48, 36);
+            this.btnExit.Size = new System.Drawing.Size(23, 32);
             this.btnExit.TabIndex = 2;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(28, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(65, 49);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(449, 424);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.lstSehir);
             this.Controls.Add(this.btnList);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Generics Example";
             ((System.ComponentModel.ISupportInitialize)(this.lstSehir)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -100,6 +116,7 @@
         private DevExpress.XtraEditors.SimpleButton btnList;
         private DevExpress.XtraEditors.ListBoxControl lstSehir;
         private DevExpress.XtraEditors.SimpleButton btnExit;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

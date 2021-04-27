@@ -16,5 +16,6 @@ namespace GenericsExample.DAL
         //void Update(Customer product);
         //IRepository e parametre olarak Customer clss göndererek bu kodları yazmana gerek yok
         void Custom();
+        
     }
 }

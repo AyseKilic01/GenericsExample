@@ -3,15 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using GenericsExample.GenericsClass;
 
 namespace GenericsExample.DAL
 {
     class CustomerDal : ICustomerDal
     {
+        [Obsolete("Don't use Add, instead use AddNew")]
         public void Add(Customer entity)
         {
-            throw new NotImplementedException();
+            MessageBox.Show(" " + entity.ID + entity.FirstName +entity.LastName +entity.Age);
+        }
+        public void AddNew(Customer entity)
+        {
+            MessageBox.Show(" " + entity.ID + " " + entity.FirstName +
+                " " +entity.LastName + " " + entity.Age);
         }
 
         public void Custom()
