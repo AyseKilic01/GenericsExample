@@ -1,13 +1,13 @@
-﻿using GenericsExample.DAL;
+﻿using GenericsExample.GenericsClass;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GenericsExample.GenericsClass
+namespace GenericsExample.DAL
 {
-    class Customer:IEntity
+    interface IStudentDal:IRepository<Student>
     {
     }
 }

@@ -55,9 +55,12 @@
   <ItemGroup>
     <Compile Include="DAL\CustomerDal.cs" />
     <Compile Include="DAL\ICustomerDal.cs" />
+    <Compile Include="DAL\IEntity.cs" />
     <Compile Include="DAL\IProductDal.cs" />
     <Compile Include="DAL\IRepository.cs" />
+    <Compile Include="DAL\IStudentDal.cs" />
     <Compile Include="DAL\ProductDal.cs" />
+    <Compile Include="GenericsClass\Student.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

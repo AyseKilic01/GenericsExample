@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GenericsExample.DAL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GenericsExample.GenericsClass
 {
-    class Product
+    class Product:IEntity
     {
     }
 }

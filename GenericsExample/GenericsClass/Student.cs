@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GenericsExample.GenericsClass
 {
-    class Customer:IEntity
+    class Student:IEntity
     {
     }
 }
